@@ -13,7 +13,7 @@ export default {
       pathRewrite: { '^': '' },
     },
     '/video/': {
-      target: 'http://host.docker.internal:8082',
+      target: 'http://localhost:8082',
       changeOrigin: true,
       pathRewrite: { '^': '' },
     },
